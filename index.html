@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="اختبر معلوماتك مع Quiz بالصعوبة! مستويات متعددة وتحديات ممتعة." />
+  <link rel="icon" href="favicon.ico" />
+  <!-- Social Meta Tags -->
+  <meta property="og:title" content="Quiz بالصعوبة" />
+  <meta property="og:description" content="اختبر معلوماتك مع Quiz بالصعوبة! مستويات متعددة وتحديات ممتعة." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="favicon.ico" />
+  <meta property="og:locale" content="ar_AR" />
+  <title>Quiz بالصعوبة</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-layout">
+    <div class="quiz-center">
+      <div class="container">
+        <div id="difficulty-selection">
+          <h1>🎯 اختار مستوى الصعوبة</h1>
+          <p class="quiz-desc">جاوب على الأسئلة بسرعة وشارك نتيجتك مع صحابك! كل مستوى فيه تحدي خاص 😉</p>
+          <button class="diff-btn" data-level="easy">🤡 مكلخ</button>
+          <button class="diff-btn" data-level="normal">👨‍🎓 عادي</button>
+          <button class="diff-btn" data-level="hard">🧠 صعيب</button>
+          <button class="diff-btn" data-level="expert">💀 المعلّم</button>
+        </div>
+
+        <div id="quiz-container" style="display:none;">
+          <div id="question"></div>
+          <div id="timer"></div>
+          <div id="answers"></div>
+          <button id="nextBtn">التالي</button>
+          <div id="result"></div>
+          <button id="restartBtn" style="display:none;">🔄 رجع للبداية</button>
+          <button id="shareBtn" style="display:none;">شارك نتيجتك 🚀</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <footer >
+    <p>&copy; 2025 جميع الحقوق محفوظة | تطوير: zakaria3fr </p>
+  </footer>
+</body>
+</html>
