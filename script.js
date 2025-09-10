@@ -315,7 +315,7 @@ function showResult() {
     const whatsappBtn = document.getElementById("whatsappBtn");
     if (whatsappBtn) {
       whatsappBtn.onclick = function() {
-        const text = `نتيجتي فـ Quiz الذكاء (${currentDifficulty}): ${score} / ${currentQuiz.length} (${iqPercentage}%)! جربو https://zakariamatnsachtbdalurldyalsite.com 😉`;
+        const text = `نتيجتي فـ Quiz الذكاء (${currentDifficulty}): ${score} / ${currentQuiz.length} (${iqPercentage}%)! جربو https://charming-gnome-eef64b.netlify.app/ 😉`;
         const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
         window.open(url, "_blank");
       };
@@ -330,3 +330,4 @@ if(timerEl){
   timerEl.style.color = "#ff9800";
   timerEl.style.textAlign = "center";
 }
+
