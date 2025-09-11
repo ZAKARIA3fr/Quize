@@ -418,7 +418,12 @@ button:active {
     left: 18px;
   }
 }
-
+@media (max-width: 480px) {
+  footer {
+    margin-bottom: max(6vw, 18px);
+    margin-top: 12px;
+    font-size: 0.95rem;
+  }
 @media (max-width: 480px) {
   .logo-quiz {
     height: 90px;
@@ -427,5 +432,6 @@ button:active {
     left: 4px;
   }
 }
+
 
 
