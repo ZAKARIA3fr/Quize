@@ -345,7 +345,7 @@ function showResult() {
     const whatsappBtn = document.getElementById("whatsappBtn");
     if (whatsappBtn) {
       whatsappBtn.onclick = function() {
-        var text = '🎉 جربو Quiz3fr دابا!!  \n\nموقع جديد فيه أسئلة وتحديات مغربية، واجهة سهلة وتعليقات مضحكة.\n\nنتيجتي: ' + score + ' / ' + currentQuiz.length + ' فـ مستوى (' + currentDifficulty + ') بنسبة ذكاء ' + iqPercentage + '%\n\nجربوه من هنا: https://charming-gnome-eef64b.netlify.app/\n\nطورناه باش يكون ممتع لكلشي! شارك نتيجتك مع صحابك وورّينا شحال جبت!';
+        var text = '🎉 جربو Quiz3fr دابا!!  \n\nموقع جديد فيه أسئلة وتحديات مغربية، واجهة سهلة وتعليقات مضحكة.\n\nنتيجتي: ' + score + ' / ' + currentQuiz.length + ' فـ مستوى (' + currentDifficulty + ') بنسبة ذكاء ' + iqPercentage + '%\n\nجربوه من هنا:https://quiz3fr.netlify.app/\n\nطورناه باش يكون ممتع لكلشي! شارك نتيجتك مع صحابك وورّينا شحال جبت!';
         var url = 'https://wa.me/?text=' + encodeURIComponent(text);
         window.open(url, '_blank');
       };
@@ -359,3 +359,4 @@ if(timerEl){
   timerEl.style.color = "#ff9800";
   timerEl.style.textAlign = "center";
 }
+
