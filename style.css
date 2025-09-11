@@ -421,9 +421,10 @@ button:active {
 
 @media (max-width: 480px) {
   .logo-quiz {
-    height: 56px;
-    max-width: 100px;
-    top: 6px;
-    left: 6px;
+    height: 80px;
+    max-width: 140px;
+    top: 4px;
+    left: 4px;
   }
 }
+
