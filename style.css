@@ -393,9 +393,9 @@ button:active {
   position: fixed;
   top: 0;
   left: 0;
-  height: 56px;
+  height: 36px;
   width: auto;
-  max-width: 140px;
+  max-width: 80px;
   object-fit: contain;
   z-index: 100;
   transition: height 0.2s, max-width 0.2s, top 0.2s, left 0.2s;
@@ -403,8 +403,8 @@ button:active {
 
 @media (min-width: 600px) {
   .logo-quiz {
-    height: 90px;
-    max-width: 240px;
+    height: 54px;
+    max-width: 120px;
     top: 0;
     left: 0;
   }
@@ -412,8 +412,8 @@ button:active {
 
 @media (min-width: 1200px) {
   .logo-quiz {
-    height: 110px;
-    max-width: 280px;
+    height: 70px;
+    max-width: 160px;
     top: 0;
     left: 0;
   }
@@ -421,8 +421,8 @@ button:active {
 
 @media (max-width: 480px) {
   .logo-quiz {
-    height: 70px;
-    max-width: 150px;
+    height: 32px;
+    max-width: 60px;
     top: 0;
     left: 0;
   }
